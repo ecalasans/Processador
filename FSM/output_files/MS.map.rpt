@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MS
-Thu Jun  1 16:12:09 2017
+Tue Jun 06 14:14:49 2017
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -42,7 +42,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Jun  1 16:12:09 2017           ;
+; Analysis & Synthesis Status        ; Successful - Tue Jun 06 14:14:49 2017           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; MS                                              ;
 ; Top-level Entity Name              ; MS                                              ;
@@ -150,18 +150,18 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 ; Processors                 ; Number ;
 +----------------------------+--------+
-; Number detected on machine ; 4      ;
+; Number detected on machine ; 2      ;
 ; Maximum allowed            ; 1      ;
 +----------------------------+--------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                           ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                    ; Library ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------+---------+
-; MS.vhd                           ; yes             ; User VHDL File  ; /home/pedro/projeto/Processador-master/Maquina de Estado/MS.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                  ;
++----------------------------------+-----------------+-----------------+----------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path           ; Library ;
++----------------------------------+-----------------+-----------------+----------------------------------------+---------+
+; MS.vhd                           ; yes             ; User VHDL File  ; F:/dados/Circuitos Digitais/FSM/MS.vhd ;         ;
++----------------------------------+-----------------+-----------------+----------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -233,7 +233,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -243,12 +243,31 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Jun  1 16:12:07 2017
+    Info: Processing started: Tue Jun 06 14:14:40 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MS -c MS
 Warning (20028): Parallel compilation is not licensed and has been disabled
-Info (12021): Found 2 design units, including 1 entities, in source file MS.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file ms.vhd
     Info (12022): Found design unit 1: MS-arq
     Info (12023): Found entity 1: MS
+Info (12021): Found 2 design units, including 1 entities, in source file ir.vhd
+    Info (12022): Found design unit 1: IR-arq
+    Info (12023): Found entity 1: IR
+Info (12021): Found 2 design units, including 1 entities, in source file pc.vhd
+    Info (12022): Found design unit 1: PC-arq
+    Info (12023): Found entity 1: PC
+Info (12021): Found 2 design units, including 1 entities, in source file somador.vhd
+    Info (12022): Found design unit 1: somador-arq
+    Info (12023): Found entity 1: somador
+Info (12021): Found 2 design units, including 1 entities, in source file subtrator.vhd
+    Info (12022): Found design unit 1: subtrator-arq
+    Info (12023): Found entity 1: subtrator
+Info (12021): Found 2 design units, including 1 entities, in source file registrador.vhd
+    Info (12022): Found design unit 1: registrador-arq
+    Info (12023): Found entity 1: registrador
+Warning (12090): Entity "mux" obtained from "mux.vhd" instead of from Quartus II megafunction library
+Info (12021): Found 2 design units, including 1 entities, in source file mux.vhd
+    Info (12022): Found design unit 1: mux-arq
+    Info (12023): Found entity 1: mux
 Info (12127): Elaborating entity "MS" for the top level hierarchy
 Warning (10541): VHDL Signal Declaration warning at MS.vhd(8): used implicit default value for signal "ld_PC" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
 Info (10041): Inferred latch for "clr_PC" at MS.vhd(141)
@@ -261,10 +280,10 @@ Info (21057): Implemented 144 device resources after synthesis - the final resou
     Info (21058): Implemented 20 input pins
     Info (21059): Implemented 48 output pins
     Info (21061): Implemented 76 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 630 megabytes
-    Info: Processing ended: Thu Jun  1 16:12:09 2017
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 487 megabytes
+    Info: Processing ended: Tue Jun 06 14:14:50 2017
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:04
 
 

@@ -1,5 +1,5 @@
 EDA Netlist Writer report for MS
-Thu Jun  1 16:12:26 2017
+Tue Jun 06 13:53:22 2017
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Jun  1 16:12:26 2017 ;
+; EDA Netlist Writer Status ; Successful - Tue Jun 06 13:53:22 2017 ;
 ; Revision Name             ; MS                                    ;
 ; Top-level Entity Name     ; MS                                    ;
 ; Family                    ; Cyclone II                            ;
@@ -66,16 +66,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+----------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                   ;
-+----------------------------------------------------------------------------------------------+
-; Generated Files                                                                              ;
-+----------------------------------------------------------------------------------------------+
-; /home/pedro/projeto/Processador-master/Maquina de Estado/simulation/modelsim/MS.vho          ;
-; /home/pedro/projeto/Processador-master/Maquina de Estado/simulation/modelsim/MS_fast.vho     ;
-; /home/pedro/projeto/Processador-master/Maquina de Estado/simulation/modelsim/MS_vhd.sdo      ;
-; /home/pedro/projeto/Processador-master/Maquina de Estado/simulation/modelsim/MS_vhd_fast.sdo ;
-+----------------------------------------------------------------------------------------------+
++------------------------------------------------------------------+
+; Simulation Generated Files                                       ;
++------------------------------------------------------------------+
+; Generated Files                                                  ;
++------------------------------------------------------------------+
+; C:/Users/Suporte/Desktop/FSM/simulation/modelsim/MS.vho          ;
+; C:/Users/Suporte/Desktop/FSM/simulation/modelsim/MS_fast.vho     ;
+; C:/Users/Suporte/Desktop/FSM/simulation/modelsim/MS_vhd.sdo      ;
+; C:/Users/Suporte/Desktop/FSM/simulation/modelsim/MS_vhd_fast.sdo ;
++------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -84,13 +84,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Jun  1 16:12:26 2017
+    Info: Processing started: Tue Jun 06 13:53:21 2017
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off MS -c MS
-Info (204026): Generated files "MS.vho", "MS_fast.vho", "MS_vhd.sdo" and "MS_vhd_fast.sdo" in directory "/home/pedro/projeto/Processador-master/Maquina de Estado/simulation/modelsim/" for EDA simulation tool
+Info (204026): Generated files "MS.vho", "MS_fast.vho", "MS_vhd.sdo" and "MS_vhd_fast.sdo" in directory "C:/Users/Suporte/Desktop/FSM/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 805 megabytes
-    Info: Processing ended: Thu Jun  1 16:12:26 2017
-    Info: Elapsed time: 00:00:00
+    Info: Peak virtual memory: 383 megabytes
+    Info: Processing ended: Tue Jun 06 13:53:22 2017
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 
